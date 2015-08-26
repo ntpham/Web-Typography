@@ -1,0 +1,203 @@
+
+* {	
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+#main_container {
+	width: 1100px;
+	height: auto;
+	background-color: #FFEEAD;
+	/*#F2EBC7*/
+	/*#FBF7E4*/
+	margin: auto;
+}
+/*.background_box {
+	background-color: #999;
+	width: 200px;
+	height: 400px;
+}
+*/
+
+.new_box {
+	width: 970px;
+	height: 15px;
+	background-color: #fff;
+	margin-left: -270px;
+	margin-top: 52px;
+}
+
+#bottom_new_box {
+	margin-top: -10px;
+}
+
+
+#rectangle {
+	height: 2230px;
+	width: 130px;
+	background-color: #703030;
+	float: left;
+
+}
+
+#rectangle2 {
+	height: 2230px;
+	width: 90px;
+	background-color: #fff;
+	float: left;
+	opacity: .8;
+}
+
+/*#top_box {
+	margin-top: -210px;
+	margin-bottom: 150px;
+	background-color: #703030;
+}
+*/
+
+#exhibitions_container {
+	width: 600px;
+	height: auto;
+	margin-left: 400px;
+	margin-top: 80px;
+}
+
+.logo {
+	margin-left: 820px;
+	margin-top: -310px;
+	margin-bottom: 180px;
+	opacity: .70;
+}
+
+#header {
+	padding-top: 50px;
+	margin-left: 50px;
+}
+
+.h2_box {
+	width: 200px;
+	height: 75px;
+	background-color: #703030;
+	margin-left: -270px;
+	margin-bottom: 30px;
+	margin-top: -45px;
+}
+
+#h2_box_resize {
+	width: 230px;
+}
+
+/*#box {
+	background-color: #F2EBC7;
+	height: 670px;
+	margin-top: -672px;
+} */
+/*#group_box {
+	color: black;
+}*/
+
+/* #diff_color {
+	margin-top: 2px;
+	color: #F2EBC7;
+}
+*/
+
+
+h1 {
+	font-family: Philosopher, sans-serif;
+	font-size: 80px;
+	text-transform: uppercase;
+	font-weight: normal;
+	width: 250px;
+	margin-left: 100px;
+	margin-bottom: 130px;
+	margin-top: 80px;
+	letter-spacing: 8px;
+	color: #703030;
+}
+h2 {
+	font-family: Open Sans, sans-serif;
+	margin-left: -250px;
+	text-align: left;
+	letter-spacing: 3px;
+	font-size: 30px;
+	font-weight: normal;
+	color: #fff;
+	margin-top: -20px;
+	margin-bottom: -80px;
+	text-transform: uppercase;
+
+}
+
+div {
+	margin-right: 10px;
+}
+
+h3 {
+	font-family: philosopher;
+	margin-left: -10px;
+	font-size: 20px;
+	letter-spacing: 1.2px;
+	line-height: 30px;
+	font-weight: bold;
+	margin-top: 10px;
+	color: #703030; 
+	text-transform: uppercase;
+}
+
+p {
+	font-family: Open Sans, sans-serif;
+	font-size: 16px;
+	margin-top: -10px;
+	line-height: 1.5;
+	letter-spacing: 1.2px;
+	margin-left: 40px;
+	margin-right: -50px;
+
+}
+
+p.paragraph_color {
+	color: black;
+} 
+p.date {
+	text-align: right;
+	padding-bottom: 40px;
+	color: #703030;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+body {
+	background-color: #fff;
+}
+.footer {
+	margin: 50px;
+	margin-left: 160px;
+	margin-bottom: 50px;
+	padding-right: 50px;
+}
+
+p.credit, p.copyright {
+	font-size: 13px;
+}
+
+p.credit {
+	margin-bottom: 30px;
+}
+/*#bottom_box {
+	margin-top: 5px;
+}*/

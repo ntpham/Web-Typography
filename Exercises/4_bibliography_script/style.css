@@ -1,0 +1,73 @@
+/* selector {property: value; } */
+
+
+/*Copyright (c) 2012, TypeSETit, LLC (typesetit@att.net), 
+with Reserved Font Name &quot;Great Vibes&quot;
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at: http://scripts.sil.org/OFL
+
+*/
+@font-face {
+    font-family: 'great_vibesregular';
+    src: url('fonts/greatvibes-regular-webfont.eot');
+    src: url('fonts/greatvibes-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/greatvibes-regular-webfont.woff2') format('woff2'),
+         url('fonts/greatvibes-regular-webfont.woff') format('woff'),
+         url('fonts/greatvibes-regular-webfont.ttf') format('truetype'),
+         url('fonts/greatvibes-regular-webfont.svg#great_vibesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#main_container {
+	width: 500px;
+	border-style: dashed;
+	border-color: #000; /*black*/
+	border-width: 1px;
+
+	background-color: #fff; /* white */
+	
+	margin-bottom: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+
+	padding: 15px;
+
+}
+
+h1 {
+	font-family: 'great_vibesregular', 'Times New Roman', Georgia, serif;
+	font-size: 72px;
+	text-align: center;
+	margin-bottom: 16px;
+}
+
+h2 {
+	font-family: Georgia;
+	margin-top:30px;
+}
+
+p {
+	font-family: Georgia;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: left;
+
+	margin: 0px;
+	padding: 0px;
+	margin-left: 20px;
+	text-indent: -20px;
+	margin-bottom: 16px;
+}
+
+.intro {
+	margin-left: 0px;
+	text-indent: 0px;
+}
+
+.title {
+	font-style: italic;

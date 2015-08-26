@@ -1,0 +1,104 @@
+/* Lesson 8: Film Series (Hierarchy; */
+
+* {
+	margin: 0px;
+	padding: 0px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/* CLEARFIX HACK*/
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+/* CUSTOM CODE BELOW*/
+
+body {
+	background-color: #999;
+}
+
+#main_container	{
+	width: 990px;
+	height: auto;
+	margin: 20px auto 40px;
+	background-color: #fff;
+	padding: 30px;
+}
+
+.film_list_container {
+	outline: 1px dotted pink;
+	width: 400px;
+	float: left;
+	height: auto;
+	margin-left: 30px;
+}
+
+#semester_1 {
+	margin-left: 60px;
+}
+
+#header {
+	margin-bottom: 90px;
+}
+
+h1, h2, h3, h4, p {
+	font-family: georgia;
+	font-size: 16px;
+	line-height: 1.5;
+	margin-bottom: 6px;
+}
+
+h1, .h1 {
+	font-size: 80px;
+	line-height: 80px;
+	font-style: italic;
+	text-transform: lowercase;
+	font-weight: normal;
+	letter-spacing: 6px;
+	text-align: right;
+}
+
+h2, .h2 {
+	/*margin-bottom: 60px;*/
+	font-size: 28px;
+	font-weight: normal;
+	letter-spacing: 2px;
+} 
+
+h3, .h3 {
+	text-transform: uppercase;
+	margin-top: 64px;
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 6px;
+}
+
+h4, .h4 {
+	margin-top: 32px;
+	font-size: 18px;
+}
+
+p {
+	margin: 18px 0px;
+}
+
+p.date {
+	margin: 0px;
+}
+
+.byline {
+	margin: 0;
+	text-align: right;
+}

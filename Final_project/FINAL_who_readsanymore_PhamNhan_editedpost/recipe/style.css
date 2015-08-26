@@ -1,0 +1,375 @@
+/* selector { property: value;}*/
+
+* {
+	/*margin: 0;
+	padding: 0; */
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+
+/*CLEARFIX HACK*/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+
+body {
+	background-color: #999;
+}
+
+
+
+
+/*********************************
+CUSTOM LAYOUT CODE
+*********************************/
+
+#main_container {
+	width: 960px;
+	height: auto;
+
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 40px;
+	margin-left: auto;
+	
+	background-color: #fff;
+	overflow: hidden; 
+}
+
+#main_container > div {
+	margin: 50px;
+	
+}
+
+#memory_container {
+	color: #991818;
+
+}
+
+#recipe_name_container {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+#recipe_name_container > p {
+	text-align: center;
+	font-size: 18px;
+	margin-top: -15px;
+
+}
+
+#ingredients_container {
+	width: 240px;
+}
+	#ingredients_list {
+		margin: 0;
+		/*padding: 0;*/
+		list-style: disc;
+		padding-left: 16px;
+	
+	}
+
+	#ingredients_list li{ 
+		margin: 16px 0;
+		color: #666666;
+		
+	}
+
+	#ingredients_list li span { 
+		color: black;
+	}
+#directions_container {
+	
+}
+#image_container {
+
+}
+	#image_container img{
+		width: 100%;
+		height: auto;
+	}
+#caption_container {
+	
+}
+#main_navigation_container {
+
+}
+
+	#main_navigation_list {
+		margin: 0px;
+		/*padding-left: 15px;
+		margin-right: 230px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border-top: 1px solid #999999;
+		border-bottom: 1px solid #999999;*/
+		padding: 0;
+		text-align: right;
+	
+
+	}
+
+	#main_navigation_list li{
+		list-style: none;
+		display: inline;
+		/*padding: 5px 10px;*/
+		/*background: #cccccc;*/
+		/*padding-right: 15px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 15px; 
+		padding-left: 0px;*/
+		padding: 4px;
+		font-family: georgia;
+		font-size: 13px;
+		line-height: 25px;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+		font-size: 14px;
+
+	}
+
+a:link {
+font-family:georgia;
+font-size:11px;
+line-height:28px;
+text-transform:uppercase;
+letter-spacing:1px;
+color:#000000;
+text-decoration:none;
+padding-top:8px; padding-right:10px;
+padding-bottom:7px;
+padding-left:10px;
+background:#A3B2C2; }
+
+a:visited { font-family:georgia;
+font-size:11px;
+line-height:28px;
+text-transform:uppercase;
+letter-spacing:1px;
+color:#000000;
+text-decoration:none;
+padding-top:8px; padding-right:10px;
+padding-bottom:7px;
+padding-left:10px;
+background:#A3B2C2;
+}
+
+a:hover { font-family:georgia;
+font-size:11px;
+line-height:28px;
+text-transform:uppercase;
+letter-spacing:1px;
+color:#000000;
+text-decoration:none;
+padding-top:8px;
+padding-right:10px;
+padding-bottom:7px;
+padding-left:10px;
+background:#E3E6E8; }
+
+a:active { font-family:georgia;
+font-size:11px;
+line-height:28px;
+text-transform:uppercase;
+letter-spacing:1px;
+color:#000000;
+text-decoration:underline; padding-top:8px;
+padding-right:10px;
+padding-bottom:7px;
+padding-left:10px;
+background:#E3E6E8; }
+
+#section_links_container {
+
+
+}
+
+	#section_links_container li {
+		list-style: none;
+		text-align: right;
+		padding: 10px;
+		font-size: 15px;
+		line-height: 20px;
+	}
+
+.section_links_list a:link {
+font-family:georgia;
+font-size:11px;
+line-height:28px;
+text-transform:uppercase;
+letter-spacing:1px;
+color:#000000;
+text-decoration:none;
+padding-top:8px; padding-right:10px;
+padding-bottom:7px;
+padding-left:10px;
+background:#A3B2C2; }
+
+.section_links_list a:visited { font-family:georgia;
+font-size:11px;
+line-height:28px;
+text-transform:uppercase;
+letter-spacing:1px;
+color:#000000;
+text-decoration:none;
+padding-top:8px; padding-right:10px;
+padding-bottom:7px;
+padding-left:10px;
+background:#A3B2C2;
+}
+
+.section_links_list a:hover { font-family:georgia;
+font-size:11px;
+line-height:28px;
+text-transform:uppercase;
+letter-spacing:1px;
+color:#000000;
+text-decoration:none;
+padding-top:8px;
+padding-right:10px;
+padding-bottom:7px;
+padding-left:10px;
+background:#E3E6E8; }
+
+#copyright_container {
+
+}
+#advertisement_pbs_container {
+	background-color:#237577;
+	color: #fff;
+
+}
+
+	#advertisement_pbs_container p{
+		/*margin-top: -30px;
+		font-size: 20px;*/
+	}
+#advertisement_book_container {
+	background-color: #991818;
+	color: #fff;
+	margin-top: -30px;
+
+}
+
+	#advertisement_book_container p {
+		/*margin-top: -30px;
+		font-size: 20px;*/
+
+	}
+
+#advertisement_restaurant_container {
+	background-color: #237577;
+	color: #fff;
+	margin-top: -30px;
+}
+
+	#advertisement_restaurant_container p {
+		/*margin-top: -30px;
+		font-size: 20px;*/
+}
+	
+#advertisements_container {
+	width: 230px;
+}
+
+	#advertisements_container p{
+		width: 230px;
+		padding: 10px;
+		margin-top: -30px;
+		font-size: 20px;
+	}
+
+#logo_container {
+	padding-bottom: 35px;
+}
+
+h4 {
+	font-family: georgia;
+	font-size: 30px;
+	font-weight: normal;
+	padding: 10px;
+}
+
+/*********************************
+STRUCTURAL LAYOUT CODE
+*********************************/
+
+div#header_container{
+	margin: 0;
+	/*background-color: blue;*/
+	/*outline: 1px solid red;*/
+}
+div#section_nav_container {
+	margin: 0;
+	/*background-color: lightblue;*/
+	width: 160px;
+	float: left;
+	padding-top: 45px;
+	/*outline: 1px solid red;*/
+}
+
+div#content_container {
+	margin: 0;
+	/*background-color: orange;*/
+	width: 800px;
+	padding: 16px;
+	float: left;
+	/*outline: 1px solid red;*/
+}
+
+	div#recipe_title_container {
+		margin: 0;
+		/*background-color: yellow;*/
+		/*outline: 1px solid red;*/
+		margin-bottom: 16px;
+
+		/*color: #C2A34F;*/
+		/*color: #991818;*/
+		color: #991818;
+
+	}
+
+	div#first_column_container {
+		margin: 0;
+		/*background-color: pink;*/
+		width: 304px;
+		float: left;
+		/*outline: 1px solid red;*/
+
+		padding: 15px;
+		padding-top: 8px;
+	}
+		div#first_column_container p{
+			line-height: 20px;
+			letter-spacing: 1px;
+	}
+
+	div#second_column_container {
+		margin: 0;
+		/*background-color: lightgreen;*/
+		width: 448px;
+		float: left;
+		/*outline: 1px solid red;*/
+		margin-left: 16px;
+
+		padding: 15px;
+	}
+			div#second_column_container p{
+				line-height: 20px;
+				letter-spacing: 1px;
+
+	}

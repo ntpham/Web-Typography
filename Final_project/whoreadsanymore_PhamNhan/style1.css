@@ -1,0 +1,170 @@
+/* selector { property: value;}*/
+
+* {
+	/*margin: 0;
+	padding: 0; */
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+/*CLEARFIX HACK*/
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+body {
+	background-color: #999;
+}
+
+#main_container {
+	width: 1012px;
+	height: auto;
+	margin: auto;
+	padding-top: 50px;
+	background-color: #fff;
+}
+#header {
+	float: left;
+}
+
+#bar {
+	width: 910px;
+	height: 3px;
+	background-color: #AA3F3F;
+	opacity: .7;
+	margin-left: 51px;
+	margin-bottom: -5px;
+	/*background-color: #8F9F8C;*/
+}
+
+h1 {
+	font-family: PT Serif;
+	font-weight: normal;
+	/*padding-right: 56px;*/
+	text-align: right;
+	color: #5D927E;
+}
+
+#navigation_container {
+	margin-left: 210px;
+}
+
+#navigation_container li{
+	list-style: none;
+	display: inline;
+	padding: 25px;
+	font-family: pt serif;
+	font-size: 20px;
+	color: #5D927E;
+}
+
+#navigation_container a{
+	text-decoration: none;
+	color: #5D927E;
+}
+
+#navigation_container a:hover{
+	text-decoration: none;
+	color: #AA3F3F;
+}
+
+#content_container {
+	padding-top: 50px;
+	float: left;
+}
+
+#content_container span{
+	font-style: italic;
+}
+#left_content {
+	float: left;
+	padding-left: 14px;
+}
+
+#section_links {
+	padding-top: 50px;
+}
+
+#section_links li{
+	list-style: none;
+	font-family: pt serif;
+	font-size: 20px;
+	padding-bottom: 25px;
+}
+
+#section_links a{
+	list-style: none;
+	text-decoration: none;
+	font-family: pt serif;
+	font-size: 20px;
+	color: #AA3F3F;
+	opacity: .8;
+}
+
+#section_links a:hover{
+	text-decoration: none;
+	opacity: 1;
+	color: #5D927E;
+}
+
+.youarehere_main {
+	color: #5D927E;
+}
+
+#margin {
+	margin-top: 261px;
+	padding-left: 42px;
+}
+
+p.margin_text {
+	width: 150px;
+	font-size: 16px;
+	line-height: 25px;
+	color: #999;
+	margin-bottom: 50px;
+}
+
+#right_content {
+	float: left;
+	width: 676px;
+	margin-left: 75px;
+}
+.paragraph {
+	margin-bottom: 80px;
+}
+
+/*.paragraph span{
+	font-size: 20px;
+	padding-right: 8px;
+	color: #AA3F3F;
+}*/
+
+.vocab {
+	font-size: 20px;
+	padding-right: 8px;
+	color: #AA3F3F;
+}
+
+h2 {
+	font-family: PT Serif;
+	font-weight: normal;
+	letter-spacing: 1px;
+	color: #5D927E;/*#8AC007;/*#647678;*/
+	margin-bottom: -5px;
+}
+
+p {
+	font-family: pt serif;
+	font-size: 16px;
+	line-height: 24px;
+	opacity: .8;
+}
